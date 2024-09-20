@@ -11,7 +11,7 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
         const addMoneyNumber = parseFloat(addMoneyInput);
         const balanceNumber = parseFloat(balance);
         const newBalance = balanceNumber + addMoneyNumber;
-        console.log(newBalance);
+
         
         document.getElementById('account-balance').innerText = newBalance;
 
